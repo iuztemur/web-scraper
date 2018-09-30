@@ -25,7 +25,7 @@ request(searchUrl.href, function(err, response, html){
         console.log("Total Page Number:", totalPageNum);
         
         parse($, items);
-
+        
         var pageIndex = 1;
         var timeoutDuration = constants.TIMEOUT_DURATION;
 
@@ -190,7 +190,7 @@ function writeToFile(items){
     writeStream.write(`Model,Başlık,Yıl,KM,Renk,Fiyat,Para Birimi \n`);
 
     items.forEach(function(item) {
-        writeStream.write(`${item[model]},${item[name]},${item[year]},${item[km]},${item[color]},${item[price]},${item[currency]} \n`);
+        writeStream.write(`${item["model"]},${item["name"]},${item["year"]},${item["km"]},${item["color"]},${item["price"]},${item["currency"]} \n`);
     });
 
     console.log("----------------------------");
