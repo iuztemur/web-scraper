@@ -1,4 +1,4 @@
-# sahibinden_web_scraper
+# web_scraper
 
 > İnternet sitesi üzerinden ev, araba ya da herhangi bir kategoride içerikleri sayfaları gezerek toplayan ve bunu bir csv dosyasına kaydeden web scraper. :rocket:
 
