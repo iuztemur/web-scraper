@@ -53,10 +53,10 @@ URL: 'https://www.sahibinden.com/bmw-4-serisi'
 PAGING_SIZE: '50'
 ```
 
-`TIMEOUT_DURATION`: Servise yapılacak sonraki çağrı için bekleme süresi. Sahibinden.com fazla request atılması durumunda kişiyi yasaklamakta ve belli bir süre bekletmektedir. Dolayısı ile yapılacak çağrılar arasında süre konulması uzun işlemler için faydalı olacaktır. Varsayılan olarak 3 saniyedir. Az çekilecek veri var ise 0(sıfır) olarak atanabilir.
+`TIMEOUT_DURATION`: Servise yapılacak sonraki çağrı için bekleme süresi. Sahibinden.com fazla request atılması durumunda kişiyi yasaklamakta ve belli bir süre bekletmektedir. Dolayısı ile yapılacak çağrılar arasında süre konulması uzun işlemler için faydalı olacaktır. Varsayılan olarak 5 saniyedir. Az çekilecek veri var ise 0(sıfır) olarak atanabilir.
 
 ```bash
-TIMEOUT_DURATION: '3000'
+TIMEOUT_DURATION: '5000'
 ```
 
 
